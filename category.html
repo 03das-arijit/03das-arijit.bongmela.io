@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories - BongMela</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="Logo.jpg" alt="BongMela Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products...">
+      <button>Search</button>
+    </div>
+    <hr>
+    <nav class="navigation">
+      <a href="cart.html">Cart</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="Profile.html">Profile</a>
+    </nav>
+  </header>
+  <hr>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="category.html">Categories</a></li>
+      <li><a href="#">Sellers</a></li>
+      <li><a href="#">Festivals</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Category Page Content -->
+  <main class="category-page">
+    <!-- Page Title -->
+    <!-- <h1>Explore Categories</h1> -->
+
+    <!-- Filter Sidebar -->
+    <aside class="filters">
+      <h2>Filters</h2>
+      <div class="filter-section">
+        <h3>Price</h3>
+        <label>
+          <input type="checkbox" name="price" value="0-1000"> Under ₹1000
+        </label>
+        <label>
+          <input type="checkbox" name="price" value="1000-5000"> ₹1000 - ₹5000
+        </label>
+        <label>
+          <input type="checkbox" name="price" value="5000-10000"> ₹5000 - ₹10000
+        </label>
+      </div>
+      <div class="filter-section">
+        <h3>Material</h3>
+        <label>
+          <input type="checkbox" name="material" value="silk"> Silk
+        </label>
+        <label>
+          <input type="checkbox" name="material" value="cotton"> Cotton
+        </label>
+        <label>
+          <input type="checkbox" name="material" value="jute"> Jute
+        </label>
+      </div>
+      <div class="filter-section">
+        <h3>Color</h3>
+        <label>
+          <input type="checkbox" name="color" value="red"> Red
+        </label>
+        <label>
+          <input type="checkbox" name="color" value="blue"> Blue
+        </label>
+        <label>
+          <input type="checkbox" name="color" value="green"> Green
+        </label>
+      </div>
+      <button class="apply-filters">Apply Filters</button>
+    </aside>
+
+    <!-- Product Grid -->
+    <section class="product-grid">
+      <div class="product">
+        <img src="saree1.jpg" alt="Baluchari Saree">
+        <h3>Baluchari Silk Saree</h3>
+        <p class="price">₹1500</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="saree2.jpg" alt="Tant Cotton Saree">
+        <h3>Tant Cotton Saree</h3>
+        <p class="price">₹1200</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="saree3.jpg" alt="Kantha Stitch Saree">
+        <h3>Kantha Stitch Saree</h3>
+        <p class="price">₹1500</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="saree4.jpg" alt="Jamdani Saree">
+        <h3>Jamdani Silk Saree</h3>
+        <p class="price">₹2000</p>
+        <button>Add to Cart</button>
+      </div>
+      <!-- Add more products as needed -->
+    </section>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="#" class="page-link">1</a>
+      <a href="#" class="page-link">2</a>
+      <a href="#" class="page-link">3</a>
+      <a href="#" class="page-link">Next</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <a href="#"><img src="fb-logo.jpg" alt="Facebook"></a>
+      <a href="#"><img src="insta.jpg" alt="Instagram"></a>
+      <a href="#"><img src="twitter.jpg" alt="Twitter"></a>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
