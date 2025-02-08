@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - BongMela</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="Logo.jpg" alt="BongMela Logo">
+    </div>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="sign-up.html">Login</a>
+    </nav>
+  </header>
+
+  <!-- Login Form -->
+  <main class="auth-page">
+    <h1>Login to Your Account</h1>
+    <form id="login-form">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="sign-up.html">Sign up</a>.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <a href="#"><img src="fb-logo.jpg" alt="Facebook"></a>
+      <a href="#"><img src="insta.jpg" alt="Instagram"></a>
+      <a href="#"><img src="twitter.jpg" alt="Twitter"></a>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="auth.js"></script>
+</body>
+</html>
