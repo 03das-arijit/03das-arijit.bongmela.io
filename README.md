@@ -16,4 +16,4 @@ Bongmela is a culture-driven e-commerce platform dedicated to showcasing the ric
 
 
 🧭 Vision
-Bongmela aims to empower Bengal’s local artisans, writers, and entrepreneurs by giving them a digital space to thrive and connect with a global audience that appreciates culture and authenticity.
+- Bongmela aims to empower Bengal’s local artisans, writers, and entrepreneurs by giving them a digital space to thrive and connect with a global audience that appreciates culture and authenticity.
