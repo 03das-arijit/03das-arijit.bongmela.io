@@ -4,15 +4,15 @@ Bongmela is a culture-driven e-commerce platform dedicated to showcasing the ric
 
 🔥 Key Features
 
-🛍️ Shop by Category: Sarees, Handicrafts, Books, Food, and more
+- 🛍️ Shop by Category: Sarees, Handicrafts, Books, Food, and more
 
-🔍 Smart Search & Filters for a smooth user experience
+- 🔍 Smart Search & Filters for a smooth user experience
 
-💳 Secure checkout with multiple payment options
+- 💳 Secure checkout with multiple payment options
 
-📦 Real-time order tracking and customer dashboard
+- 📦 Real-time order tracking and customer dashboard
 
-🌐 Fully responsive and mobile-friendly design
+- 🌐 Fully responsive and mobile-friendly design
 
 
 🧭 Vision
